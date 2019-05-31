@@ -17,17 +17,22 @@ body {
     background-position: 30% 0%;
 }
 
-button {
-    font-size: 15px;
-    width: 50%;
-    height: 5vh;
-    font-weight: bold;
-    background-color: #ff4646;
-
+.button:hover {
+    background-color: #ff6363;
+    text-decoration: underline;
 }
 
-button:hover {
-    background-color: #ff6363;
+.button {
+    width: 300px;
+    height: 25px;
+    background-color: #EA5045;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+
 }
 
 input {
@@ -48,7 +53,7 @@ form p {
 
 /*Forside*/
 
-#row {
+.row {
     display: flex;
     justify-content: space-between;
     padding-top: 10px;
@@ -56,12 +61,12 @@ form p {
     padding-right: 30px;
 }
 
-#row a img {
+.row a img {
     width: 100%;
 
 }
 
-#row img:hover {
+.row img:hover {
     -webkit-filter: brightness(95%);
 }
 
